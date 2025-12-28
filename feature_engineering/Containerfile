@@ -1,0 +1,9 @@
+FROM python:3.10-slim
+
+WORKDIR /app
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+COPY feature_engineering/ /app/
+
+ENTRYPOINT ["python", "feast_feature_engineering.py"]

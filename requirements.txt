@@ -1,0 +1,7 @@
+feast[aws]==0.38.1  # Or latest; includes pandas, etc.
+kfp==2.7.0
+pandas
+scikit-learn
+xgboost
+minio
+faker

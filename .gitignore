@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+*.db
+data/
+artifacts/
+*.yaml  # except pipeline yaml if needed

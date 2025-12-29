@@ -11,8 +11,7 @@ This project demonstrates an end-to-end MLOps workflow integrating Feast (featur
 ## Prerequisites
 - Python 3.10+
 - Docker
-- Kubernetes cluster with Kubeflow Pipelines (e.g., local kind cluster + Kubeflow)
-- MinIO or S3-compatible storage (optional for production)
+- Kubernetes cluster with Kubeflow Pipelines (e.g. local kind cluster + Kubeflow)
 
 ## Quick Start (Local Testing)
 1. `pip install -r requirements.txt`
